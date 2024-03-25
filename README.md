@@ -14,7 +14,7 @@ En esta aplicacion crearemos un pequeño DashBoard donde implementaremos un CRUD
 -   Jquery Ajax
 -   Bootstrap
 -   Vitest
-todo esto con fines educativo y aprendizaje.
+    todo esto con fines educativo y aprendizaje.
 
 ## License
 
