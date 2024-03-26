@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 class AuthController extends Controller
 {
     // METODO DE LOGIN
-    public function index()
+    public function showLoginFrom()
     {
         return view('login');
     }

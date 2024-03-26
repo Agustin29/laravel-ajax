@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\AuthController;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +12,7 @@ use App\Http\Controllers\Auth\AuthController;
 | routes are loaded by the RouteServiceProvider and all of them will
 | be assigned to the "web" middleware group. Make something great!
 |
-*/
+ */
 
-Route::get('/', [AuthController::class, 'showLoginForm']);
+Route::get('/', [AuthController::class, 'showLoginFrom']);
 Route::post('/login', [AuthController::class, 'login']);
